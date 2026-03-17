@@ -1,23 +1,24 @@
 {
   "name": "India State Choropleth",
   "organization": "IAA Project",
-  "description": "India state-level choropleth map — Industrial Animal Agriculture",
-  "logoUrl": "https://www.gstatic.com/images/branding/product/1x/datastudio_64dp.png",
+  "description": "India state-level choropleth map for animal agriculture data",
+  "logoUrl": "https://avatars.githubusercontent.com/nikhilsharma110",
   "organizationUrl": "https://github.com/nikhilsharma110",
   "supportUrl": "https://github.com/nikhilsharma110/iaa-india-map",
-  "privacyPolicyUrl": "https://policies.google.com/privacy",
-  "termsOfServiceUrl": "https://policies.google.com/terms",
+  "privacyPolicyUrl": "https://github.com/nikhilsharma110/iaa-india-map",
+  "termsOfServiceUrl": "https://github.com/nikhilsharma110/iaa-india-map",
   "packageUrl": "https://nikhilsharma110.github.io/iaa-india-map/",
   "devMode": true,
   "components": [
     {
       "id": "india-state-map",
       "name": "India State Choropleth",
-      "description": "State-level choropleth map of India using custom TopoJSON",
-      "iconUrl": "https://www.gstatic.com/images/branding/product/1x/datastudio_64dp.png",
+      "description": "State-level choropleth map of India",
+      "iconUrl": "https://avatars.githubusercontent.com/nikhilsharma110",
       "resource": {
         "js":     "https://nikhilsharma110.github.io/iaa-india-map/index.js",
-        "config": "https://nikhilsharma110.github.io/iaa-india-map/index.json"
+        "config": "https://nikhilsharma110.github.io/iaa-india-map/index.json",
+        "css":    ""
       }
     }
   ]
