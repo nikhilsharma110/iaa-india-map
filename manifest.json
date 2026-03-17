@@ -1,0 +1,25 @@
+{
+  "@data-studio/type": "VISUALIZATION",
+  "name": "India State Choropleth",
+  "organization": "IAA Project",
+  "description": "India state-level choropleth map — Industrial Animal Agriculture",
+  "logoUrl": "https://www.gstatic.com/images/branding/product/1x/datastudio_64dp.png",
+  "organizationUrl": "https://github.com/nikhilsharma110",
+  "supportUrl": "https://github.com/nikhilsharma110/iaa-india-map",
+  "privacyPolicyUrl": "https://policies.google.com/privacy",
+  "termsOfServiceUrl": "https://policies.google.com/terms",
+  "packageUrl": "https://nikhilsharma110.github.io/iaa-india-map/",
+  "devMode": false,
+  "components": [
+    {
+      "id": "india-state-map",
+      "name": "India State Choropleth",
+      "description": "State-level choropleth map of India using custom TopoJSON",
+      "iconUrl": "https://www.gstatic.com/images/branding/product/1x/datastudio_64dp.png",
+      "resource": {
+        "js":     "https://nikhilsharma110.github.io/iaa-india-map/index.js",
+        "config": "https://nikhilsharma110.github.io/iaa-india-map/index.json"
+      }
+    }
+  ]
+}
