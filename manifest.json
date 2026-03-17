@@ -8,7 +8,7 @@
   "privacyPolicyUrl": "https://policies.google.com/privacy",
   "termsOfServiceUrl": "https://policies.google.com/terms",
   "packageUrl": "https://nikhilsharma110.github.io/iaa-india-map/",
-  "devMode": false,
+  "devMode": true,
   "components": [
     {
       "id": "india-state-map",
