@@ -32,7 +32,7 @@ body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f5f9; color: #
   background-repeat: no-repeat; background-position: right 10px center;
   padding-right: 28px;
 }
-.ctrl-group select:focus { border-color: #4a90d9; }
+.ctrl-group select:focus { border-color: #c0392b; }
 
 /* Map card */
 .map-card {
@@ -49,8 +49,8 @@ svg#map    { width: 100%; height: auto; display: block; }
   font-family: 'Segoe UI', Arial, sans-serif;
   text-anchor: middle; pointer-events: none;
 }
-.val-text  { font-size: 6.5px; fill: #111; font-weight: 700; }
-.code-text { font-size: 6px;   fill: #444; font-weight: 500; }
+.val-text  { font-size: 9px; fill: #111; font-weight: 700; }
+.code-text { font-size: 7.5px; fill: #444; font-weight: 500; }
 
 /* Legend */
 .legend {
@@ -190,7 +190,7 @@ function updateMap() {
 
   const color = d3.scaleSequential()
     .domain([minVal, maxVal])
-    .interpolator(d3.interpolateBlues);
+    .interpolator(d3.interpolateReds);
 
   // Legend
   document.getElementById("leg-label").textContent = unit || "Value";
